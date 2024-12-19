@@ -1,6 +1,8 @@
 import React from 'react'
 import { RiReactjsLine } from 'react-icons/ri'
-import { SiSpring,SiRedis,SiDocker,SiJavascript,SiMysql,SiAngular,SiGithubactions   } from 'react-icons/si';
+import {     SiSpring, SiRedis, SiDocker, SiJavascript, 
+    SiMysql, SiAngular, SiGithubactions, 
+    SiJenkins, SiKubernetes, SiAmazonaws, SiArgo    } from 'react-icons/si';
 import { SiPostgresql } from 'react-icons/si';
 import { animate, motion } from "framer-motion"
 const iconvariants=(duration)=>({
@@ -25,6 +27,12 @@ const Technologies = () => {
         initial={{opacity:0,x:-100}}
         transition={{duration:1}}
         className="flex flex-wrap items-center justify-center gap-4">
+            <motion.div variants={iconvariants(3)} initial="inital" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiJenkins className='text-7xl text-red-600'/>
+            </motion.div>
+            <motion.div variants={iconvariants(2)} initial="inital" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiKubernetes className='text-7xl text-blue-400'/>
+            </motion.div>
             <motion.div 
             variants={iconvariants(2)}
             initial="inital"
@@ -69,6 +77,16 @@ const Technologies = () => {
             animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
                 <SiGithubactions  className='text-7xl text-white'/>
             </motion.div>
+            
+           
+            <motion.div variants={iconvariants(3)} initial="inital" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiArgo className='text-7xl text-purple-500'/>
+            </motion.div>
+            <motion.div variants={iconvariants(2)} initial="inital" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiAmazonaws className='text-7xl text-orange-400'/>
+            </motion.div>
+
+
           
         </motion.div>
 
