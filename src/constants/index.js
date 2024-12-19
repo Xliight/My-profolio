@@ -22,15 +22,15 @@ export const EXPERIENCES = [
     description: `Development of robust applications in Java while automating deployment processes. My role includes managing and implementing backend 
 architectures, optimizing performance, setting up quality tests (unit/integration) with a 50% improvement, as well as integrating CI/CD pipelines to 
 ensure fast and reliable deliveries, reducing failures by 40%`,
-    technologies: [ "Spring Boot", "PostgreSQL","Docker",  "Junit5/Mockito", "Docker" "Jenkins", "SonarQube", "Kubernetes (K8s)", "ArgoCD"],
+    technologies: [ "Spring Boot", "PostgreSQL","Docker",  "Junit5/Mockito", "Docker","Jenkins", "SonarQube", "Kubernetes (K8s)", "ArgoCD"],
   },
   {
-    year: "Fev 2024 - Present",
+    year: "Fev 2024 - Aug 2024",
     role: "Intern Software Enginner",
     company: "Offzone-Agency",
     description: `Developing and maintaining web applications using JavaScript, React.js, and Spring Boot. 
     Implemented RESTful APIs and integrated with Mysql databases.
-     Collaborated with team to define project requirements and timelines and  deliver the  projet.`,
+    Collaborated with team to define project requirements and timelines and  deliver the  projet.`,
     technologies: ["React.js", "Spring Boot", "Mysql","Docker"],
   },
   {
