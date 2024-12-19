@@ -16,13 +16,31 @@ export const ABOUT_TEXT = ``;
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
+    year: " Sep 2024 - Present",
+    role: "Backend & Devops Engineer ",
+    company: "E-Ambition",
+    description: `Development of robust applications in Java while automating deployment processes. My role includes managing and implementing backend 
+architectures, optimizing performance, setting up quality tests (unit/integration) with a 50% improvement, as well as integrating CI/CD pipelines to 
+ensure fast and reliable deliveries, reducing failures by 40%`,
+    technologies: [ "Spring Boot", "PostgreSQL","Docker",  "Junit5/Mockito", "Docker" "Jenkins", "SonarQube", "Kubernetes (K8s)", "ArgoCD"],
+  },
+  {
+    year: "Fev 2024 - Present",
     role: "Intern Software Enginner",
     company: "Offzone-Agency",
     description: `Developing and maintaining web applications using JavaScript, React.js, and Spring Boot. 
     Implemented RESTful APIs and integrated with Mysql databases.
      Collaborated with team to define project requirements and timelines and  deliver the  projet.`,
     technologies: ["React.js", "Spring Boot", "Mysql","Docker"],
+  },
+  {
+    year: "oct 2023 - Jan 2024",
+    role: " FullStack Java Enginner",
+    company: "Smart M",
+    description: `Participation in the implementation of the online property management platform in SaaS mode, as well as the creation of architecture on AWS.
+ Team Collaboration: Worked closely with the team to ensure seamless 
+integration between the backend and frontend.`,
+    technologies: [ "Terraform", "Spring Boot", "ReactJS", "PostgreSQL","AWS"],
   },
   {
     year: "2022 - 2023",
